@@ -1,0 +1,41 @@
+/*
+	implementation of a stack
+	Henrique Medeiros Dos Reis
+	feb 27 2021
+*/
+
+#include "MyStack.hpp"
+
+using namespace std;
+
+//this templated method simply pushs an item to the stack, in order words, add an item
+template <class X>
+void
+MyStack<X>::push(const X& somethingToPush)
+{
+  list<X>::push_front(somethingToPush);
+}
+
+//this templated method simply pops an item from the stack, in order words, remove an item
+template <class X>
+void 
+MyStack<X>::pop()
+{
+	list<X>::pop_front();
+}
+
+//this templated method will return the top element in the stack
+template <class X>
+const X&
+MyStack<X>::top() const
+{
+	return  list<X>::front();
+}
+
+//this templated method will return a boolean variable representing weather the stack is empty or not
+template <class X>
+bool
+MyStack<X>::isEmpty() const
+{
+	return list<X>::empty();
+}

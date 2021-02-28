@@ -1,0 +1,8 @@
+Henrique Medeiros dos Reis
+
+Feb/24/2021
+	Started project 1, following the instructions that were given in the handout.
+	Firts i read the provided code, and think about how to use them. Then I implemented the stack, lastly I wrote the main method. I did not run into major problems, I still need to test everything and check if I have any errors
+	
+Feb/27/2021
+	After testing I noticed that I was having problems when the stack was empty and how that was making other things not work. I just added some if statements to check for that. I do not spot any bugs after correcting that.
