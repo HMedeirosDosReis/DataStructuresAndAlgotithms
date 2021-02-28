@@ -1,0 +1,22 @@
+Henrique Medeiros Dos Reis
+February/6/2020
+
+Plataform used to develop: Linux-Fedora, and the language used is C++
+
+	My program has two bugs. One of them I was not able to identify exactly what was causing this bug and one bug that happens whenever a the coefficients would 0 in a addition or subtraction.
+	 
+	The first bug is that sometimes the first time I run the program after compiling, and I try to evaluate any polynomial I get the value of "-214783648" after a couple secconds. If i terminate my program and compine it again by changing anything in the program file (i.e. adding a comment line in a line that has no code), this bug doesnt happen anymore and the proccess time for this option is instantaneous, independent of the size of the polynomial.
+	
+	The second bug, happens whenever a sum of two terms would give me a coefficient of 0 for this new term. 
+	Example:
+	accumulator = 4x^2+21x+3
+	then I try to subtract 21x
+	my term of degree 1 would be 0 now, but I get the negative term, giving the result of 
+	accumulator = 4x^2-21x+3
+	This also happens if I multiply two polynomials that would make a term coefficient = 0
+	
+	However, if the coeficent of terms do not 0 each other, there is no problem.
+	
+	In order to compile I just used the make file that is inside this folder and typed make in the command prompt.
+	
+	I aproaced this project by first thinking which parts would be easier to implement, leaving only the printing and evaluating that would require a little more thinking. Once I came up with the idea of how to implement, I tried to make it work. I  runned into some problems specially with the evaluation and to make it work in O(n). But after some time thinking I was able to get it done.

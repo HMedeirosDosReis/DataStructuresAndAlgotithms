@@ -1,0 +1,23 @@
+Henrique Medeiros dos Reis
+
+Feb/1/2021
+	Started project 1, following the instructions that were given in the handout.
+	First I started with what I thought that would be the easier part, and how to use the STL lists as my data structure. I completed the 'p','+', '-', '*', 'c' and 's'.
+	
+	From the parts I worked on today, I still need to make some changes in all options that require it to print it after the operation. Also, I need to work the printing in order to make only 1 term per each degree.
+	
+Feb/3/2021
+	Cleaned the print, it seems to be working. 
+
+Feb/4/2021
+	Made some tests and started working at the 'e' option. Having some troulbes on how to implement it in O(n).
+	Using Horners method, how to evaluate (3x^3+4)
+	
+Feb/5/2021 
+	3x^3+4 = 3x^3+0x^2+0x+4
+	but how to evaluate this on O(n)
+	I believe that i fixed it.
+	Needs to test everything.
+
+Feb/6/2021 
+	Having 2 bugs, one correlated with the evaluation of the polynomial. And one with the polynomial subtracted or multiplyed would make my coef equal 0. I need to take a look on that
