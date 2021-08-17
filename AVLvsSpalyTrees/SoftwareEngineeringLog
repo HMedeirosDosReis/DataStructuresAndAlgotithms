@@ -1,0 +1,13 @@
+Henrique Medeiros dos Reis
+
+April/1/2021
+	Started project 1, following the instructions that were given in the handout.
+	Let's make sure that both trees are working properly with the soccer teams.
+	Now that the trees seem to be working, I will build a method that will be able to count the number of nodes accessed. 
+	Also, I already made the main, I just need to test and comment.
+	
+April/4/2021
+	Still needs testing, I just worked in the comments.
+
+April/5/2021
+	All tests done, I had some little bugs with the Splay tree, for some reason I had some nodes being removed during some lookups. I deleted the remove method since they were not necessarely needed, and now everything is working perfectly. 
